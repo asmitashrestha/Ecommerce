@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* css for navbar components*/
+.navs {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.9rem;
+  text-align: center;
+  padding: 0;
+
+}
+
+.navbar {
+  color: rgb(38, 38, 224);
+  position: relative;
+}
+
+.navbar button {
+  padding: 17px;
+  border: none;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+}
+
+.posts {
+  position: absolute;
+  color: rgb(38, 55, 209);
+  background-color: white;
+  top: 6px;
+  right: 150px;
+  border-radius: 0.4rem;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.post {
+  position: absolute;
+  right: 30px;
+  top: 6px;
+  background-color: rgb(14, 14, 236);
+  width: 100px;
+  color: white;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px 0.5px;
+  text-decoration: none;
+}
+
+.posts:hover {
+  color: white;
+  background-color: rgb(29, 6, 56);
+}
+
+
+/* CSS for home page */
+
+/* .thumbs-wrapper{
+  display: none;
+} */
+
+/* css for package page or product page */
+
+.container{
+  width: 310px;
+}
